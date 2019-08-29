@@ -15,4 +15,4 @@ install:
 after_success:
 - firebase use --token ${FIREBASE_TOKEN}
 - firebase use --add ${PROJECT_ID}
-- firebase deploy --none-interactive --token "${FIREBASE_TOKEN}"
+- firebase deploy --token "${FIREBASE_TOKEN}"
